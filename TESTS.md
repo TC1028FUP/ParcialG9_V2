@@ -1,5 +1,5 @@
 ![Tec de Monterrey](images/logotecmty.png)
-# Ejercicios con estatutos de repetición
+# Ejercicios del examen parcial
 
 ## Configuración de pruebas con **pytest**
 
