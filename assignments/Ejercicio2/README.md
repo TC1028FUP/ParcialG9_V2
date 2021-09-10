@@ -1,9 +1,8 @@
 ![Tec de Monterrey](../../images/logotecmty.png)
 # Ejercicio 2 del examen parcial AD2021
-Ciclos - Cuántos números múltiplos de 5 nos da un usuario
+Ciclos - Cuántos pares e impares recibes
 
-Escribe un programa que reciba números positivos (considera el 0 como positivo) y vaya contando aquellos números que son múltiplos de 5. El programa deberá dejar de recibir números hasta que el usuario ingrese algún número negativo, al suceder esto, debe mostrar el mensaje de cuántos múltiplos de 5 recibió.
-
+Escribe un programa que reciba números positivos (considera el 0 como positivo) y vaya contando aquellos números que son pares y vaya sumando los impares. El programa deberá dejar de recibir números hasta que el usuario ingrese un número negativo, al suceder esto, debe mostrar el mensaje de cuántos pares recibió además de la suma de los impares.
 
 Modifica el programa que se encuentra en la carpeta `src` que se llama
 `exercise.py` y que contiene el siguiente código:
@@ -25,7 +24,8 @@ Número: 0
 Número: 12
 Número: 150
 Número: -1
-Tecleaste 3 múltiplos de 5
+Pares: 4
+Suma de impares: 5
 ```
 
 
@@ -36,4 +36,4 @@ ejecutarse adecuadamente.
 
 Una vez que termines tu actividad, si te da tiempo prueba con
 `pytest`, si no, simplemente súbela a tu repositorio en GitHub, con el proceso de commit + push.
-Debe ser enviada antes de las 11:00 de la mañana que se cierra el ejercicio.
+Debe ser enviada antes de las 9:00 de la mañana que se cierra el ejercicio.

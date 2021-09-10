@@ -6,37 +6,37 @@ input_values = [
     # Test case 1
     (
         # Inputs
-        ["25", "34", "0", "20", "-7"],
+        ["25", "34", "0", "20", "-1"],
         # Outputs
-        ["Número: ", "Número: ","Número: ", "Número: ","Número: ", "Tecleaste 3 múltiplos de 5"],
+        ["Número: ", "Número: ","Número: ", "Número: ","Número: ", "Pares: 3", "Suma de impares: 25"],
         # Message in case of failure
-        "Revisa que estes identificando y contabilizando bien los múltiplos de 5"
+        "Revisa que estes identificando y contabilizando bien los pares y sumando los impares"
     ),
     # Test case 2
     (
        # Inputs
-        ["12", "34", "1", "-1"],
+        ["11", "34", "1", "-1"],
         # Outputs
-        ["Número: ", "Número: ","Número: ", "Número: ", "Tecleaste 0 múltiplos de 5"],
+        ["Número: ", "Número: ","Número: ", "Número: ", "Pares: 1", "Suma de impares: 12"],
         # Message in case of failure
-        "Revisa que estes identificando y contabilizando bien los múltiplos de 5"
+        "Revisa que estes identificando y contabilizando bien los pares y sumando los impares"
     ),
     # Test case 3
     (
         # Inputs
         ["-100"],
         # Outputs
-        ["Número: ", "Tecleaste 0 múltiplos de 5"],
+        ["Número: ", "Pares: 0", "Suma de impares: 0"],
         # Message in case of failure
-        "Revisa que estes identificando y contabilizando bien los múltiplos de 5"
+        "Revisa que estes identificando y contabilizando bien los pares y sumando los impares"
     ),
     # Test case 4
     (
         # Inputs
         ["0", "-100"],
         # Outputs
-        ["Número: ", "Número: ", "Tecleaste 1 múltiplos de 5"],
+        ["Número: ", "Número: ", "Pares: 1", "Suma de impares: 0"],
         # Message in case of failure
-        "Revisa que estes calculando bien todos los casos"
+        "Revisa que estes identificando y contabilizando bien los pares y sumando los impares"
     )
 ]

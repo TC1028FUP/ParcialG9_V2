@@ -4,20 +4,33 @@
 input_values = [
     # Test case 1
     (
-    ["280"],
-    ["Cantidad de KW: ","La factura de este mes es por 650"],
-    ["Revisa los ejemplos y la tabla"]
+    ["H", "1"],
+    ["Departamento (H/F): ","Cantidad: ","Total a pagar $100" ],
+    ["Revisa los ejemplos y la tabla para saber si estás cubriendo todos los casos"]
     ),
     # Test case 2
     (
-    ["80"],
-    ["Cantidad de KW: ","La factura de este mes es por 0"],
-    ["Revisa los ejemplos y la tabla"]
+    ["H", "7"],
+    ["Departamento (H/F): ","Cantidad: ","Total a pagar $560" ],
+    ["Revisa los ejemplos y la tabla para saber si estás cubriendo todos los casos"]
     ),
+
     # Test case 3
     (
-    ["400"],
-    ["Cantidad de KW: ","La factura de este mes es por 1550"],
-    ["Revisa los ejemplos y la tabla"]
+    ["F", "-5"],
+    ["Departamento (H/F): ","Cantidad: ","Error en los datos" ],
+    ["Revisa los ejemplos y la tabla para saber si estás cubriendo todos los casos"]
+    ),
+    # Test case 4
+    (
+    ["ferre", "5"],
+    ["Departamento (H/F): ","Cantidad: ","Error en los datos" ],
+    ["Revisa los ejemplos y la tabla para saber si estás cubriendo todos los casos"]
+    ),
+    # Test case 5
+    (
+    ["F", "2"],
+    ["Departamento (H/F): ","Cantidad: ","Total a pagar $300" ],
+    ["Revisa los ejemplos y la tabla para saber si estás cubriendo todos los casos"]
     )
 ]
